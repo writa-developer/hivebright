@@ -30,7 +30,7 @@ function submitForm(event) {
     window.location.href = mailtoLink;
 }
 
-// Function to hide both types of headers
+// Function to hide both types of headers on the Connect page. (https://www.writa.us/topics/40573/page/home)
 function hideGroupHeaders() {
 // Find and hide the expanded header
 const expandedHeader = document.querySelector('[data-testid="group-header-cover-picture"]');
